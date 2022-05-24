@@ -20,6 +20,7 @@ import chainComposableFinance from './chains/composableFinance.png';
 import chainCreditcoin from './chains/creditcoin.png';
 import chainCreditcoinTest from './chains/creditcoin-test.png';
 import chainCrownSterling from './chains/crown-sterling.png';
+import chainDefichain from './chains/sublink_white.png';
 import chainRococoDali from './chains/dali.png';
 import chainRoccoDataHighway from './chains/datahighway.png';
 import chainDorafactory from './chains/dorafactory.png';
@@ -51,6 +52,7 @@ import chainShiden from './chains/shiden.png';
 import chainSnakenet from './chains/snakenet.svg';
 import chainSpanner from './chains/spanner.png';
 import chainStandard from './chains/standard.png';
+import chainSubLink from './chains/sublink.png';
 import chainT0rn from './chains/t0rn.png';
 import chainKusamaDataHighway from './chains/tanganika.png';
 import chainTinker from './chains/tinker.png';
@@ -242,6 +244,7 @@ export const chainLogos = Object.entries({
   DataHighway: nodeDataHighway,
   'DataHighway Spreehafen Rococo Parachain Testnet': chainRoccoDataHighway,
   'DataHighway Tanganika Kusama Parachain': chainKusamaDataHighway,
+  'DefiChain': chainDefichain,
   'Dolphin Testnet': nodeDolphin,
   'Dora Factory': chainDorafactory,
   Efinity: chainEfinity,
@@ -366,6 +369,7 @@ export const chainLogos = Object.entries({
   subgame: nodeSubGame,
   'SubGame Gamma': nodeSubGame,
   'SubGame Staging': nodeSubGame,
+  'SubLink': chainSubLink,
   subsocial: nodeSubsocial,
   subsocialX: nodeSubsocialX,
   subspace: nodeSubspace,
@@ -549,6 +553,7 @@ export const nodeLogos = Object.entries({
   subgame: nodeSubGame,
   'SubGame Gamma': nodeSubGame,
   'SubGame Staging': nodeSubGame,
+  'SubLink': chainSubLink,
   subspace: nodeSubspace,
   'substrate-contracts-node': nodeSubstrateContractsNode,
   'substrate-node': nodeSubstrate,
@@ -637,6 +642,9 @@ export const namedLogos: Record<string, unknown> = {
   DaliTestnet: nodeDaliTestnet,
   darwinia: nodeDarwinia,
   datahighway: nodeDataHighway,
+  'defichain': chainDefichain,  
+  'DefiChain': chainDefichain,  
+  'defiChain': chainDefichain,  
   'dock-pos-mainnet': nodeDockMainnet,
   'dock-pos-testnet': nodeDockTestnet,
   dolphin: nodeDolphin,
@@ -806,6 +814,7 @@ export const namedLogos: Record<string, unknown> = {
   subdao: nodeSubDAO,
   'SubDAO PC1': nodeSubDAO,
   'SubDAO Staging': nodeSubDAO,
+  'sublink': chainSubLink,
   subgame: nodeSubGame,
   'SubGame Gamma': nodeSubGame,
   'SubGame Staging': nodeSubGame,
